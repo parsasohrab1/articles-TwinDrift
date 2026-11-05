@@ -1,0 +1,85 @@
+{
+ "note": "SIMULATED turbofan data (NASA C-MAPSS); engine failure cycle is the end of each series; 20 random engine splits; no ground truth for drift onset",
+ "datasets": {
+  "FD001": {
+   "n_test_engines_per_split": 34,
+   "rules": {
+    "conformal_0.05": {
+     "threshold": 2.3115970592929083,
+     "false_alarm_rate": 0.013235294117647059,
+     "missed_rate": 0.0,
+     "median_lead_cycles": 51.325,
+     "median_alarm_fraction_of_life": 0.7500670170035311
+    },
+    "conformal_0.1": {
+     "threshold": 1.962403203431915,
+     "false_alarm_rate": 0.06323529411764704,
+     "missed_rate": 0.0,
+     "median_lead_cycles": 56.5,
+     "median_alarm_fraction_of_life": 0.7259927083488582
+    },
+    "fixed_2": {
+     "threshold": 2.0,
+     "false_alarm_rate": 0.06029411764705881,
+     "missed_rate": 0.0,
+     "median_lead_cycles": 55.375,
+     "median_alarm_fraction_of_life": 0.7294494049562765
+    },
+    "fixed_3": {
+     "threshold": 3.0,
+     "false_alarm_rate": 0.0029411764705882353,
+     "missed_rate": 0.0,
+     "median_lead_cycles": 42.65,
+     "median_alarm_fraction_of_life": 0.7902756317931943
+    },
+    "fixed_5": {
+     "threshold": 5.0,
+     "false_alarm_rate": 0.0,
+     "missed_rate": 0.0,
+     "median_lead_cycles": 28.45,
+     "median_alarm_fraction_of_life": 0.863475884649433
+    }
+   }
+  },
+  "FD002": {
+   "n_test_engines_per_split": 88,
+   "rules": {
+    "conformal_0.05": {
+     "threshold": 1.9148809185638496,
+     "false_alarm_rate": 0.032954545454545445,
+     "missed_rate": 0.0,
+     "median_lead_cycles": 57.425,
+     "median_alarm_fraction_of_life": 0.7181134063313157
+    },
+    "conformal_0.1": {
+     "threshold": 1.7692052606741064,
+     "false_alarm_rate": 0.061931818181818185,
+     "missed_rate": 0.0,
+     "median_lead_cycles": 59.975,
+     "median_alarm_fraction_of_life": 0.7066494138390318
+    },
+    "fixed_2": {
+     "threshold": 2.0,
+     "false_alarm_rate": 0.023863636363636365,
+     "missed_rate": 0.0,
+     "median_lead_cycles": 55.75,
+     "median_alarm_fraction_of_life": 0.7270553897846709
+    },
+    "fixed_3": {
+     "threshold": 3.0,
+     "false_alarm_rate": 0.0,
+     "missed_rate": 0.0,
+     "median_lead_cycles": 38.575,
+     "median_alarm_fraction_of_life": 0.8049238224452455
+    },
+    "fixed_5": {
+     "threshold": 5.0,
+     "false_alarm_rate": 0.0,
+     "missed_rate": 0.0,
+     "median_lead_cycles": 22.1,
+     "median_alarm_fraction_of_life": 0.8893460136141458
+    }
+   }
+  }
+ }
+}
